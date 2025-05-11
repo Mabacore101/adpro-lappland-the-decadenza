@@ -8,3 +8,6 @@ When both the publisher and subscriber use the same URL like `amqp://guest:guest
 
 - The publisher sent 5 event to the message broker. Those event later consumed and processed by the subscriber. 
 ![alt text](PublisherSS2.png)
+
+- The spike in the graph indicates the message rate, which measures how many messages are sent to the channel within a given time interval. Since the publisher sends several messages to the message broker, the message rate increases, resulting in a spike on the graph.
+![alt text](PublisherSS3.png)
